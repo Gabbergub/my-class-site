@@ -11,12 +11,12 @@ h1 {
     background-color: black;
 }
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Bigshot One";
     color: white;
     text-decoration: underline;
 }
 h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Bigshot One";
     color: white;
 }
 div{
@@ -24,4 +24,7 @@ div{
     right: -400px;
     top: -300px;
 
+}
+h1 {
+    font-family: "Bigshot One";
 }
