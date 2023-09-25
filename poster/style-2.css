@@ -1,0 +1,19 @@
+/* Version 2: Full Width and Typographic */
+
+.container {
+/* This makes the container full width */
+    width: 100%;
+}
+
+.workshop {
+    font-family: 'Indie Flower';
+  }
+  h2 {
+    font-family: 'Indie Flower';
+  }
+  h3 {
+    font-family: 'Indie Flower';
+  }
+  ol {
+    font-family: 'Indie Flower';
+  }

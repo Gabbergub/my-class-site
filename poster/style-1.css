@@ -1,0 +1,71 @@
+/* Version 1: Poster Shape */
+
+.container {
+    position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+
+  }  
+
+  h1 {
+    font-family: 'Permanent Marker';
+    font-size: xx-large;
+    width: 400px;
+    font-weight: 900px;
+    top: -40px;
+    left: 100px;
+padding: 20px;
+display: absolute;
+    
+  }
+
+  h2 {
+    font-family: 'Permanent Marker';
+    position: relative;
+    top: 10px;
+    left: -400px;
+    padding: 20px;
+  
+  }
+  h3 {
+    font-family: 'Permanent Marker';
+    position: relative;
+    top: 10px;
+    left: -400px;
+  }
+
+
+  body {
+
+    background-image: url(Eye_On_The_Target-removebg-preview.png), url(https://img.freepik.com/premium-photo/crumpled-paper-background-10_750034-43.jpg?w=2000);
+    background-position: right bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 600px, auto;
+  }
+  
+  ol {
+    font-family: 'Permanent Marker';
+    position: relative;
+    top: 10px;
+    left: -400px;
+  }
+  
+  .greenline {
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    margin: 50px;
+    display: inline-block;
+  }
+  
