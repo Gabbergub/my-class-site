@@ -1,0 +1,87 @@
+/* Version 1: Poster Shape */
+
+.container {
+    /* background-image: url("https://www.freepik.com/premium-photo/crumpled-paper-background-10_34799899.htm");
+    background: whitesmoke; */
+    background-image: url(https://img.freepik.com/premium-photo/crumpled-paper-background-10_750034-43.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+     position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+
+  }  
+  body {
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  background-color: #cccccc;
+  
+  }
+
+.center {
+  font-family: "permanent marker";
+  cursor: pointer;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  
+  }
+  
+  .eye {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  #content-title {
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    letter-spacing: -0.1px;
+  transition: letter-spacing 0.1s ease-in;
+ }
+ #content-title:hover {
+  letter-spacing: 3px;
+ }
+ .just {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  letter-spacing: -0.1px;
+  transition: letter-spacing 0.1s ease-in;
+ }
+ .just:hover {
+  letter-spacing: 10px;
+ }
+#info-content {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  letter-spacing: -0.1px;
+  transition: letter-spacing 0.1s ease-in;
+}
+#info-content:hover {
+  letter-spacing: 3px;
+}
+#date {
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+  transition: all 0.4s ease-in;
+}
+#date:hover {
+  bottom: 5px;
+}
