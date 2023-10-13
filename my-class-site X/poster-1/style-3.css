@@ -1,0 +1,47 @@
+/* Version 3: Ugly */
+
+.background {
+    background-color: yellow;
+}
+h1 {
+    font-family: 'Permanent Marker';
+    font-weight: 900px;
+    color: magenta;
+}
+h2 {
+    font-family: 'Permanent Marker';
+    font-style: italic;
+    color: skyblue;
+
+}
+h3 {
+    font-family: 'Indie Flower';
+    font-size: xx-large;
+    color: skyblue;
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+ol {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: blue;
+color: magenta;
+font-size: xx-large;
+text-align: center;
+width: 350px;
+height: 800px;
+display: inline-block;
+line-height: 80px;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/65/9e/34/659e34bb131a94cf9ae7d127a2bed36e.gif);
+    background-repeat: repeat;
+    
+}
+.greenline {
+    background-color: rgb(0, 128, 85);
+    width: 200px;
+    height: 40px;
+    margin: 50px;
+}

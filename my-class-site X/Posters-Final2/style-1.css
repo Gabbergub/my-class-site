@@ -1,0 +1,99 @@
+/* Version 1: Poster Shape */
+
+.container {
+    /* background-image: url("https://www.freepik.com/premium-photo/crumpled-paper-background-10_34799899.htm");
+    background: whitesmoke; */
+    background-image: url(olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+     position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+
+  }  
+  body {
+    font-family: "romp-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+background-color: #cccccc;
+  
+  }
+
+.center {
+  font-family: "six-hands-black", sans-serif;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  transform:rotate(90deg);
+  }
+  
+  .eye {
+    max-width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: all 0.1s ease-out;
+  }
+  .eye {
+    shape-outside: circle(50%);
+   }
+  
+  .eye:hover {
+    background-image: url(Eye_On_The_Target-Bold-removebg-preview.png);
+    
+  }
+  #content-title {
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    letter-spacing: -0.1px;
+  transition: letter-spacing 0.1s ease-in;
+ }
+ #content-title:hover {
+  letter-spacing: 3px;
+ }
+ .just {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+ }
+#info-content {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  letter-spacing: -0.1px;
+  transition: letter-spacing 0.1s ease-in;
+}
+#info-content:hover {
+  letter-spacing: 3px;
+}
+#date {
+  font-size: 20px;
+  color: darkred;
+  position: absolute;
+  bottom: 1px;
+  left: 200px;
+  transition: all 0.1s ease-out;
+  transform: translate(50%, -50%);
+}
+#date:hover {
+  bottom: 15px;
+}

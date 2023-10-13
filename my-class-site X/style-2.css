@@ -1,0 +1,30 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: underline overline;
+    text-decoration-thickness: 7px;
+    text-align: center;
+    font-size: 100px;
+    
+}
+.body {
+    background-color: black;
+}
+h2 {
+    font-family: "Bigshot One";
+    color: white;
+    text-decoration: underline;
+}
+h3 {
+    font-family: "Bigshot One";
+    color: white;
+}
+div{
+    position: relative;
+    right: -400px;
+    top: -300px;
+
+}
+h1 {
+    font-family: "Bigshot One";
+}

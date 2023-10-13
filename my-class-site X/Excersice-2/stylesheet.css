@@ -1,0 +1,147 @@
+body {
+    background-color: chartreuse;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-size: 100px;
+
+}
+.WELCOME {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+    
+
+}
+
+#tofu_welcome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    
+
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-align: right;
+    
+
+}
+.death {
+     text-align: center;
+     text-decoration: overline;
+     text-decoration-style: double;
+     text-decoration-thickness: 5px;
+
+}
+
+.click {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fish {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 500px;
+}
+
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 100px;
+}
+.list {
+    font-weight: 400;
+}
+.first {
+    font-weight: 300;
+}
+
+.steps {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+.steps_1 {
+    text-decoration: underline;
+    width: 25px;
+
+}
+#steps_tofu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 800px;
+}
+.choose {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+
+}
+#arrows {
+    margin-left: auto;
+    width: 50px;
+    
+
+}
+#heart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 50%;
+}
+.CARNIVORE {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+#chick {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.body7 {
+    background-color: antiquewhite;
+}
+.heaven {
+    text-align: center;
+    text-decoration: dashed;
+}
+.dark {
+    background-color: black;
+}
+.eye1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 50%;
+   
+}
+
+#final {
+    text-decoration-color: aliceblue;
+
+}
