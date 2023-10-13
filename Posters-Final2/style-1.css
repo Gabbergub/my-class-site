@@ -32,7 +32,7 @@ background-color: #cccccc;
 
 .center {
   font-family: "six-hands-black", sans-serif;
-  font-weight: 800;
+  font-weight: 800px;
   font-style: normal;
   font-size: 40px;
   position: absolute;
@@ -49,7 +49,9 @@ background-color: #cccccc;
     left: 50px;
     transition: all 0.1s ease-out;
   }
-  
+  .eye {
+    shape-outside: circle(50%);
+   }
   
   .eye:hover {
     background-image: url(Eye_On_The_Target-Bold-removebg-preview.png);
