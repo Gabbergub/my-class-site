@@ -1,30 +1,45 @@
-h1 {
+.h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+    color: black;
     text-decoration: underline overline;
     text-decoration-thickness: 7px;
-    text-align: center;
     font-size: 100px;
-    
 }
-.body {
-    background-color: black;
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://img.freepik.com/premium-photo/crumpled-paper-background-10_750034-43.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h2 {
+.content {
+    bottom: -20px;
+    display: block;
+    justify-content: center;
+}
+.h2 {
     font-family: "Bigshot One";
-    color: white;
+    color: black;
     text-decoration: underline;
 }
-h3 {
+.h3 {
     font-family: "Bigshot One";
-    color: white;
+    color: black;
 }
-div{
-    position: relative;
-    right: -400px;
-    top: -300px;
+div {
+    position: absolute;
 
 }
-h1 {
+.h1 {
     font-family: "Bigshot One";
+}
+.me {
+position: absolute;
+bottom: 40px;
+right: 200px;
+max-width: 70%;
+max-height: 70%;
+
 }
