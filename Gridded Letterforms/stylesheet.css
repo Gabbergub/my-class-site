@@ -1,0 +1,45 @@
+body {
+    background-color: #367055;
+}
+#container {
+  display: flex;
+  position: absolute;
+  top: 34%; 
+  left: 18%;
+  transform: translate(-50, -50);
+}
+.letter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+}
+.g {
+    width: 200px;
+    height: 200px;
+}
+.a {
+    width: 200px;
+    height: 200px;
+}
+.b {
+    width: 200px;
+    height: 200px;
+}
+.e {
+    width: 200px;
+    height: 200px;
+}
+.fill {
+    background-color: bisque;
+    transition: border-radius 0.3s linear;
+    transition: width 0.3s;
+    transition: height 0.3s;
+}
+#container:hover .fill {
+    border-radius: 50px;
+    height: 50px;
+}
