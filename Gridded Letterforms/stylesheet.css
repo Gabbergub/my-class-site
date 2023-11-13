@@ -4,9 +4,9 @@ body {
 #container {
   display: flex;
   position: absolute;
-  top: 34%; 
-  left: 18%;
-  transform: translate(-50, -50);
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .letter {
     display: flex;
@@ -17,9 +17,28 @@ body {
     width: 40px;
     height: 40px;
 }
+.mark {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
 .g {
     width: 200px;
     height: 200px;
+}
+#top {
+    border-top-left-radius: 20px;
+}
+#bottom {
+    border-bottom-left-radius: 20px;
+}
+#top-right {
+    border-top-right-radius: 20px;
+}
+#bottom-right {
+    border-bottom-right-radius: 20px;
 }
 .a {
     width: 200px;
