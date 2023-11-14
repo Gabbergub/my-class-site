@@ -1,0 +1,12 @@
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-left: 500px solid orange;
+    border-bottom: 200px solid transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
